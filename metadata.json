@@ -1,0 +1,5 @@
+{
+  "name": "AI Chef's Kitchen",
+  "description": "An AI-powered chef that provides personalized recipe recommendations in one of three distinct culinary personas: a warm Korean home-cook, a professional creative chef, or a trendy solo-living cook.",
+  "requestFramePermissions": []
+}
