@@ -1,5 +1,4 @@
-
-// IMPORTANT: This file should be placed in `netlify/functions/getAiRecipe.js`
+// IMPORTANT: This file should be placed in `api/getAiRecipe.js`
 
 // We need to dynamically import @google/genai
 let GoogleGenAI;

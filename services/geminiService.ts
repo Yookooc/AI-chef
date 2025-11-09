@@ -1,9 +1,8 @@
-
 import type { Persona, MenuProposal } from '../types';
 
-// This function now calls our own serverless function endpoint.
+// This function now calls our own serverless function endpoint, configured for Vercel.
 const callApiFunction = async (payload: object) => {
-  const response = await fetch('/.netlify/functions/getAiRecipe', {
+  const response = await fetch('/api/getAiRecipe', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
